@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yt5122/Node-Js/issues"
   },
-  "homepage": "https://github.com/yt5122/Node-Js#readme"
+  "homepage": "https://github.com/yt5122/Node-Js#readme",
+  "dependencies": {
+    "chalk": "^5.1.2"
+  }
 }
