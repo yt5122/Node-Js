@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/yt5122/Node-Js#readme",
   "dependencies": {
-    "chalk": "^5.1.2"
-  }
+    "chalk": "^5.1.2",
+    "colors": "^1.4.0"
+  },
+  "keywords": []
 }

@@ -1,10 +1,14 @@
 //http module 
-const { default: chalk } = require('chalk')
-var http = require('http')
 
-var PORT = 9898
+
+var http = require('http')
+var colors = require('colors')
+
+var PORT = 9752
+colors.enable()
 const server = http.createServer()
 server.listen(PORT,()=>{
 
-        console.log(chalk.blue('Server is running on a port',PORT))
+        console.log(colors.blue('Server is running on a port',PORT))
+        console.log('Warning!');
 })
