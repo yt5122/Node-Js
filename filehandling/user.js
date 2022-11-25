@@ -5,8 +5,9 @@ const dest = "./filehandling/input.txt"
 
 function readDataFromFile(){
 
-    var x = fs.readFileSync('./filehandling/input.txt','utf-8')
-    console.log(x)
+  var x = fs.readFileSync('./filehandling/users.json','utf8')
+  var y = JSON.parse(x)
+  console.log(y[0].name)
 }
 function writeDataToFile(){
      var d = "hello this is file.....";
@@ -59,4 +60,5 @@ module.exports={
     removeFolder,
     copyfile,
    movefile,
+   
 }
